@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69023B6C27FB1A9200E2050C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023B6B27FB1A9200E2050C /* MainView.swift */; };
+		69023B6E27FB7ACC00E2050C /* FriendGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023B6D27FB7ACC00E2050C /* FriendGalleryView.swift */; };
 		69FC983327EC984700756D45 /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC983227EC984700756D45 /* SwiftUIStudyApp.swift */; };
 		69FC983527EC984700756D45 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC983427EC984700756D45 /* LoginView.swift */; };
 		69FC983727EC984800756D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FC983627EC984800756D45 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69023B6B27FB1A9200E2050C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		69023B6D27FB7ACC00E2050C /* FriendGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendGalleryView.swift; sourceTree = "<group>"; };
 		69FC982F27EC984700756D45 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FC983227EC984700756D45 /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		69FC983427EC984700756D45 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			children = (
 				69FC983227EC984700756D45 /* SwiftUIStudyApp.swift */,
 				69FC983427EC984700756D45 /* LoginView.swift */,
+				69023B6B27FB1A9200E2050C /* MainView.swift */,
+				69023B6D27FB7ACC00E2050C /* FriendGalleryView.swift */,
 				69FC985A27F1D78E00756D45 /* ContentView.swift */,
 				69FC983627EC984800756D45 /* Assets.xcassets */,
 				69FC983827EC984800756D45 /* Preview Content */,
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				69FC983527EC984700756D45 /* LoginView.swift in Sources */,
+				69023B6C27FB1A9200E2050C /* MainView.swift in Sources */,
 				69FC983327EC984700756D45 /* SwiftUIStudyApp.swift in Sources */,
 				69FC985B27F1D78E00756D45 /* ContentView.swift in Sources */,
+				69023B6E27FB7ACC00E2050C /* FriendGalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
