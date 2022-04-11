@@ -12,6 +12,7 @@ struct SwiftUIStudyApp: App {
     var body: some Scene {
         WindowGroup {
             LoginView()
+//            ContentView()
         }
     }
 }
